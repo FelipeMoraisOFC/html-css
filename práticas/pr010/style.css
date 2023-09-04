@@ -1,0 +1,174 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Great+Vibes & display=swap');
+
+
+    /*
+    #bbe4ca
+    #1B5C31
+    #3FDB75
+    #43E87D
+    #38C268
+    */
+    :root{
+        --cor0: #bbe4ca;
+        --cor1: #1B5C31;
+        --cor2: #3FDB75;
+        --cor3: #43E87D;
+        --cor4: #38C268; 
+    }
+
+body {
+        font-family: sans-serif;
+        background-color: #bbe4ca;
+        margin: 0px;
+}
+header {
+        background-image: linear-gradient(to top, #1B5C31, #2D9C54);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.432);
+        padding: 1px;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    margin: 30px;
+    font-size: 1.8em;
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+
+main {
+    width: 840px;
+    background-color: #e6e6e6;
+    margin: auto;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.432);
+}
+
+nav > a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+nav > a:hover  {
+        background-color: #38C268;
+        color: rgb(160, 18, 18);
+
+}
+
+.h201 {
+    font-family: 'idroid';
+    font-size: 2em;
+    color: #1B5C31;
+    margin: 0px;
+    padding: 10px 10px 10px 20px;
+    background-image: none;
+}
+
+h2 {
+    font-family: 'idroid';
+    font-size: 2em;
+    color: #1B5C31;
+    margin: 0px 20px;
+    background-image: linear-gradient(to left,  #e6e6e6, #bce6ca);
+}
+
+p {
+    text-indent: 20px;
+    font-size: 1.3em;  
+    text-align: justify;
+    margin: 20px;
+}
+
+a {
+    color: #1B5C31;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover  {
+    background-color: #38C268;
+    color: rgb(160, 18, 18);}
+
+picture {
+    margin: 20px;
+}
+
+iframe {
+    border-color: #1B5C31;
+}
+section {
+    background-color: #c8e4d2;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.432);
+    width: 800px;
+}
+
+
+section>.h202 {
+    font-family: sans-serif;
+    background-color: none;
+    color: white;
+    font-size: 1.5em;
+    margin: 0px;
+    border: 0px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+section>p {
+    margin: 0px 20px 0px 20px;
+}
+
+.lista01 {
+
+    font-weight: bold;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    box-shadow: 0px 0px 0px;
+    margin: 0px;
+}
+
+.lista02 {
+    font-weight: bold;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    box-shadow: 0px 0px 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+footer {
+    background-color: #1B5C31;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    border: 0px;
+}
+
+footer > a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+}
+
+footer > a:hover  {
+            background-color: #38C268;
+            color: rgb(160, 18, 18);
+}

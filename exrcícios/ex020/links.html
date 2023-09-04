@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: blue;
+            background-color: darkolivegreen;
+        }
+        a:active {
+            color: black;
+            background-color: rgb(9, 82, 28);
+        }
+
+        .a::before {
+            content: '☛';
+        }
+        .a::after {
+            content: '☚'
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Linkes personalizados</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCpb1eyFry3XR0Ne1Qiqn0xQ" target="_blank" rel="next" class="a">Meu canal do Youtube</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100087359854122" target="_blank" rel="next">Meu facebook</a></li>
+        <li><a href="https://www.twitch.tv/wanhedatw" target="_blank" rel="next">Meu canal na Twitch</a></li>
+    </ul>
+</body>
+</html>

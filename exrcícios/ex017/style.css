@@ -1,0 +1,17 @@
+@charset "UTF8";
+
+body {
+    background-image: linear-gradient( to top, #7CF8FA, #9800F0) ;
+    background-attachment: fixed; font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px #4e007a8a;
+    margin: auto;
+}
+h1, h2 {font-family: 'Times New Roman', Times, serif; color: #F06D1A;
+
+}
